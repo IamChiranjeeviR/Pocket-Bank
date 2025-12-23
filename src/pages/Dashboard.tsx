@@ -25,8 +25,8 @@ const Dashboard = () => {
   const chartData = getChartData(selectedAccountId);
 
   return (
-    <div className="px-5 md:px-10 h-full overflow-y-auto overflow-x-hidden flex flex-col">
-      <div className="bg-white px-10 py-5 rounded-b-xl shrink-0">
+    <div className="px-3 md:px-10 h-full overflow-y-auto overflow-x-hidden flex flex-col">
+      <div className="bg-white px-5 md:px-10 py-5 rounded-b-xl shrink-0">
         <div className="flex justify-between items-start md:items-center flex-col md:flex-row font-semibold">
           <div className="flex gap-1 sm:gap-3 flex-col sm:flex-row">
             <p className="text-[#2549BD]">Dashboard</p>
